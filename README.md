@@ -64,6 +64,11 @@ pnpx skills add antfu/skills --skill='*' -g
 | [vue-best-practices](skills/vue-best-practices) | Vue 3 + TypeScript 最佳实践 | [vuejs-ai/skills](https://github.com/vuejs-ai/skills) |
 | [vue-router-best-practices](skills/vue-router-best-practices) | Vue Router 最佳实践 | [vuejs-ai/skills](https://github.com/vuejs-ai/skills) |
 | [vue-testing-best-practices](skills/vue-testing-best-practices) | Vue 测试最佳实践 | [vuejs-ai/skills](https://github.com/vuejs-ai/skills) |
+| [composition-patterns](skills/composition-patterns) | React 组合模式与可扩展组件 API 设计 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [deploy-to-vercel](skills/deploy-to-vercel) | 将应用和网站部署到 Vercel，默认使用预览部署 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [react-best-practices](skills/react-best-practices) | React / Next.js 性能优化最佳实践 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [react-native-skills](skills/react-native-skills) | React Native / Expo 高性能移动应用最佳实践 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| [vercel-cli-with-tokens](skills/vercel-cli-with-tokens) | 使用 Token 通过 Vercel CLI 部署和管理项目 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | [web-design-guidelines](skills/web-design-guidelines) | 用于构建美观界面的 Web 设计指南 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 
 ## 常见问题

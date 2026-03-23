@@ -69,6 +69,11 @@ export const vendors: Record<string, VendorSkillMeta> = {
   'web-design-guidelines': {
     source: 'https://github.com/vercel-labs/agent-skills',
     skills: {
+      'composition-patterns': 'composition-patterns',
+      'deploy-to-vercel': 'deploy-to-vercel',
+      'react-best-practices': 'react-best-practices',
+      'react-native-skills': 'react-native-skills',
+      'vercel-cli-with-tokens': 'vercel-cli-with-tokens',
       'web-design-guidelines': 'web-design-guidelines',
     },
   },
