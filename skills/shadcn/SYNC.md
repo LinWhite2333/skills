@@ -1,5 +1,5 @@
 # Sync Info
 
 - **Source:** `vendor/shadcn-ui/skills/shadcn`
-- **Git SHA:** `f900bd57d0d197d22b1a620bc43c964cb44a73ef`
+- **Git SHA:** `6a4b27b80d69e45f1575309281c892f1b1d92bf2`
 - **Synced:** 2026-03-23
