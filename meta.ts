@@ -30,6 +30,13 @@ export const vendors: Record<string, VendorSkillMeta> = {
       slidev: 'slidev',
     },
   },
+  'shadcn-ui': {
+    official: true,
+    source: 'https://github.com/shadcn-ui/ui',
+    skills: {
+      shadcn: 'shadcn',
+    },
+  },
   'vueuse': {
     official: true,
     source: 'https://github.com/vueuse/vueuse',

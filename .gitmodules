@@ -13,6 +13,9 @@
 [submodule "vendor/slidev"]
 	path = vendor/slidev
 	url = https://github.com/slidevjs/slidev
+[submodule "vendor/shadcn-ui"]
+	path = vendor/shadcn-ui
+	url = https://github.com/shadcn-ui/ui
 [submodule "vendor/vueuse"]
 	path = vendor/vueuse
 	url = https://github.com/vueuse/skills

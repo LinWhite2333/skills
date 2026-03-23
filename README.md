@@ -1,100 +1,100 @@
-# Anthony Fu's Skills
+# Anthony Fu 的 Skills 集合
 
-A curated collection of [Agent Skills](https://agentskills.io/home) reflecting [Anthony Fu](https://github.com/antfu)'s preferences, experience, and best practices, along with usage documentation for the tools.
+这是一个精心整理的 [Agent Skills](https://agentskills.io/home) 集合，体现了 [Anthony Fu](https://github.com/antfu) 的个人偏好、实践经验与最佳实践，同时也包含这些工具的使用文档。
 
 > [!IMPORTANT]
-> This is a proof-of-concept project for generating agent skills from source documentation and keeping them in sync.
-> I haven't fully tested how well the skills perform in practice, so feedback and contributions are greatly welcome.
+> 这是一个概念验证项目，目标是根据源文档生成 agent skills，并持续与上游内容保持同步。
+> 我还没有完整验证这些 skills 在实际使用中的效果，因此非常欢迎反馈与贡献。
 
-## Installation
+## 安装
 
 ```bash
 pnpx skills add antfu/skills --skill='*'
 ```
 
-or to install all of them globally:
+或者全局安装全部 skills：
 
 ```bash
 pnpx skills add antfu/skills --skill='*' -g
 ```
 
-Learn more about the CLI usage at [skills](https://github.com/vercel-labs/skills).
+更多 CLI 用法请参阅 [skills](https://github.com/vercel-labs/skills)。
 
-## Skills
+## Skills 列表
 
-This collection is aim to be a one-stop collection of you are mainly working on Vite/Nuxt. It includes skills from different sources with different scopes.
+如果你的主要工作栈是 Vite / Nuxt，这个集合的目标是成为一站式技能合集。它整合了来自不同来源、覆盖范围各异的 skills。
 
-### Hand-maintained Skills
+### 手工维护的 Skills
 
-> Opinionated
+> 带有明确主观取向
 
-Manually maintained by Anthony Fu with his preferred tools, setup conventions, and best practices.
+由 Anthony Fu 手工维护，采用他偏好的工具、项目约定和最佳实践。
 
-| Skill | Description |
-|-------|-------------|
-| [antfu](skills/antfu) | Anthony Fu's preferences and best practices for app/library projects (eslint, pnpm, vitest, vue, etc.) |
+| Skill | 说明 |
+|-------|------|
+| [antfu](skills/antfu) | Anthony Fu 在应用 / 库项目中的偏好与最佳实践（eslint、pnpm、vitest、vue 等） |
 
-### Skills Generated from Official Documentation
+### 基于官方文档生成的 Skills
 
-> Unopinionated but with tilted focus (e.g. TypeScript, ESM, Composition API, and other modern stacks)
+> 不带强主观设定，但会偏向 TypeScript、ESM、Composition API 等现代技术栈
 
-Generated from official documentation and fine-tuned by Anthony.
+基于官方文档生成，并由 Anthony 进一步调优。
 
-| Skill | Description | Source |
-|-------|-------------|--------|
-| [vue](skills/vue) | Vue.js core - reactivity, components, composition API | [vuejs/docs](https://github.com/vuejs/docs) |
-| [nuxt](skills/nuxt) | Nuxt framework - file-based routing, server routes, modules | [nuxt/nuxt](https://github.com/nuxt/nuxt) |
-| [pinia](skills/pinia) | Pinia - intuitive, type-safe state management for Vue | [vuejs/pinia](https://github.com/vuejs/pinia) |
-| [vite](skills/vite) | Vite build tool - config, plugins, SSR, library mode | [vitejs/vite](https://github.com/vitejs/vite) |
-| [vitepress](skills/vitepress) | VitePress - static site generator powered by Vite | [vuejs/vitepress](https://github.com/vuejs/vitepress) |
-| [vitest](skills/vitest) | Vitest - unit testing framework powered by Vite | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) |
-| [unocss](skills/unocss) | UnoCSS - atomic CSS engine, presets, transformers | [unocss/unocss](https://github.com/unocss/unocss) |
-| [pnpm](skills/pnpm) | pnpm - fast, disk space efficient package manager | [pnpm/pnpm.io](https://github.com/pnpm/pnpm.io) |
+| Skill | 说明 | 来源 |
+|-------|------|------|
+| [vue](skills/vue) | Vue.js 核心能力：响应式、组件、Composition API | [vuejs/docs](https://github.com/vuejs/docs) |
+| [nuxt](skills/nuxt) | Nuxt 框架：文件路由、服务端路由、模块系统 | [nuxt/nuxt](https://github.com/nuxt/nuxt) |
+| [pinia](skills/pinia) | Pinia：直观且类型安全的 Vue 状态管理 | [vuejs/pinia](https://github.com/vuejs/pinia) |
+| [vite](skills/vite) | Vite 构建工具：配置、插件、SSR、库模式 | [vitejs/vite](https://github.com/vitejs/vite) |
+| [vitepress](skills/vitepress) | VitePress：由 Vite 驱动的静态站点生成器 | [vuejs/vitepress](https://github.com/vuejs/vitepress) |
+| [vitest](skills/vitest) | Vitest：基于 Vite 的单元测试框架 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) |
+| [unocss](skills/unocss) | UnoCSS：原子化 CSS 引擎，支持 presets 与 transformers | [unocss/unocss](https://github.com/unocss/unocss) |
+| [pnpm](skills/pnpm) | pnpm：速度快且节省磁盘空间的包管理器 | [pnpm/pnpm.io](https://github.com/pnpm/pnpm.io) |
 
-### Vendored Skills
+### 供应商同步的 Skills
 
-Synced from external repositories that maintain their own skills.
+从外部仓库同步而来，这些仓库自行维护各自的 skills。
 
-| Skill | Description | Source |
-|-------|-------------|--------|
-| [slidev](skills/slidev) (Official) | Slidev - presentation slides for developers | [slidevjs/slidev](https://github.com/slidevjs/slidev) |
-| [tsdown](skills/tsdown) (Official) | tsdown - TypeScript library bundler powered by Rolldown | [rolldown/tsdown](https://github.com/rolldown/tsdown) |
-| [turborepo](skills/turborepo) (Official) | Turborepo - high-performance build system for monorepos | [vercel/turborepo](https://github.com/vercel/turborepo) |
-| [vueuse-functions](skills/vueuse-functions) (Official) | VueUse - 200+ Vue composition utilities | [vueuse/skills](https://github.com/vueuse/skills) |
-| [vue-best-practices](skills/vue-best-practices) | Vue 3 + TypeScript best practices | [vuejs-ai/skills](https://github.com/vuejs-ai/skills) |
-| [vue-router-best-practices](skills/vue-router-best-practices) | Vue Router best practices | [vuejs-ai/skills](https://github.com/vuejs-ai/skills) |
-| [vue-testing-best-practices](skills/vue-testing-best-practices) | Vue testing best practices | [vuejs-ai/skills](https://github.com/vuejs-ai/skills) |
-| [web-design-guidelines](skills/web-design-guidelines) | Web design guidelines for building beautiful interfaces | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| Skill | 说明 | 来源 |
+|-------|------|------|
+| [slidev](skills/slidev) (官方) | Slidev：面向开发者的演示文稿工具 | [slidevjs/slidev](https://github.com/slidevjs/slidev) |
+| [tsdown](skills/tsdown) (官方) | tsdown：基于 Rolldown 的 TypeScript 库打包工具 | [rolldown/tsdown](https://github.com/rolldown/tsdown) |
+| [turborepo](skills/turborepo) (官方) | Turborepo：面向 monorepo 的高性能构建系统 | [vercel/turborepo](https://github.com/vercel/turborepo) |
+| [vueuse-functions](skills/vueuse-functions) (官方) | VueUse：200+ 个 Vue Composition 工具函数 | [vueuse/skills](https://github.com/vueuse/skills) |
+| [vue-best-practices](skills/vue-best-practices) | Vue 3 + TypeScript 最佳实践 | [vuejs-ai/skills](https://github.com/vuejs-ai/skills) |
+| [vue-router-best-practices](skills/vue-router-best-practices) | Vue Router 最佳实践 | [vuejs-ai/skills](https://github.com/vuejs-ai/skills) |
+| [vue-testing-best-practices](skills/vue-testing-best-practices) | Vue 测试最佳实践 | [vuejs-ai/skills](https://github.com/vuejs-ai/skills) |
+| [web-design-guidelines](skills/web-design-guidelines) | 用于构建美观界面的 Web 设计指南 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 
-## FAQ
+## 常见问题
 
-### What Makes This Collection Different?
+### 这个集合有什么不同？
 
-This collection is opinionated, but the key difference is that it uses git submodules to directly reference source documentation. This provides more reliable context and allows the skills to stay up-to-date with upstream changes over time. If you primarily work with Vue/Vite/Nuxt, this aims to be a comprehensive one-stop collection.
+这个集合带有一定主观取向，但它最关键的区别在于：它通过 git submodule 直接引用源文档。这样可以提供更可靠的上下文，也能让这些 skills 随着上游变化持续保持更新。如果你的主要工作集中在 Vue / Vite / Nuxt，这个集合希望能成为一个完整的一站式选择。
 
-The project is also designed to be flexible - you can use it as a template to generate your own skills collection.
+这个项目也被设计得足够灵活，你完全可以把它当作模板，用来生成自己的 skills 集合。
 
-### Skills vs llms.txt vs AGENTS.md
+### Skills、llms.txt 和 AGENTS.md 有什么区别？
 
-To me, the value of skills lies in being **shareable** and **on-demand**.
+在我看来，skills 的价值主要体现在两个方面：**可共享** 和 **按需加载**。
 
-Being shareable makes prompts easier to manage and reuse across projects. Being on-demand means skills can be pulled in as needed, scaling far beyond what any agent's context window could fit at once.
+可共享意味着提示词更容易在不同项目之间管理和复用。按需加载则意味着你只需要在需要时引入对应 skill，这种扩展方式远远超出任何单个 agent 上下文窗口一次性能容纳的内容。
 
-You might hear people say "AGENTS.md outperforms skills". I think that's true — AGENTS.md loads everything upfront, so agents always respect it, whereas skills can have false negatives where agents don't pull them in when you'd expect. That said, I see this more as a gap in tooling and integration that will improve over time. Skills are really just a standardized format for agents to consume—plain markdown files at the end of the day. Think of them as a knowledge base for agents. If you want certain skills to always apply, you can reference them directly in your AGENTS.md.
+你可能会听到有人说“AGENTS.md 比 skills 更有效”。我认为这话有一定道理，因为 AGENTS.md 会在一开始就整体加载，所以 agent 通常都会遵循它；而 skills 可能会出现“该加载时没有加载”的漏召情况。不过我更倾向于把这看作工具链和集成方式还不够成熟的阶段性问题，未来应该会持续改善。归根到底，skills 只是 agent 可消费的一种标准化格式，本质上仍然是普通的 Markdown 文件。你可以把它理解成面向 agent 的知识库。如果你希望某些 skills 始终生效，也可以在自己的 AGENTS.md 中直接引用它们。
 
-## Generate Your Own Skills
+## 生成你自己的 Skills
 
-Fork this project to create your own customized skill collection.
+你可以 fork 这个项目，构建自己的定制化 skill 集合。
 
-1. Fork or clone this repository
-2. Install dependencies: `pnpm install`
-3. Update `meta.ts` with your own projects and skill sources
-4. Run `pnpm start cleanup` to remove existing submodules and skills
-5. Run `pnpm start init` to clone the submodules
-6. Run `pnpm start sync` to sync vendored skills
-7. Ask your agent to `Generate skills for \<project\>` (recommended one at a time to manage token usage)
+1. Fork 或 clone 此仓库
+2. 安装依赖：`pnpm install`
+3. 在 `meta.ts` 中更新为你自己的项目与 skill 来源
+4. 运行 `pnpm start cleanup`，移除现有 submodule 和 skills
+5. 运行 `pnpm start init`，克隆这些 submodule
+6. 运行 `pnpm start sync`，同步 vendored skills
+7. 让你的 agent 执行 `Generate skills for <project>`（建议一次只生成一个，以便控制 token 消耗）
 
-See [AGENTS.md](AGENTS.md) for detailed generation guidelines.
+更详细的生成说明请参阅 [AGENTS.md](AGENTS.md)。
 
 ## Sponsors
 
@@ -104,8 +104,8 @@ See [AGENTS.md](AGENTS.md) for detailed generation guidelines.
   </a>
 </p>
 
-## License
+## 许可证
 
-Skills and the scripts in this repository are [MIT](LICENSE.md) licensed.
+本仓库中的 skills 与脚本均采用 [MIT](LICENSE.md) 许可证。
 
-Vendored skills from external repositories retain their original licenses - see each skill directory for details.
+从外部仓库同步而来的 vendored skills 保留其原始许可证，详情请查看各自 skill 目录。
